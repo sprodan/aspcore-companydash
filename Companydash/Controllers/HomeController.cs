@@ -16,6 +16,19 @@ namespace Companydash.Controllers
             db = context;
         }
 
+        [HttpGet]
+        public IActionResult Buy(int id)
+        {
+            ViewBag.PhoneId = id;
+            return View();
+        }
+        [HttpPost]
+        public string Buy(Order order)
+        {
+            db.Orders.Add(order);
+            db.SaveChanges();
+            return "Спасибо " + order.User + " за покупку!";
+        }
 
         public IActionResult Index()
         {
