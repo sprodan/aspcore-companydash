@@ -1,0 +1,9 @@
+c:\users\user\documents\visual studio 2017\Projects\Companydash\Companydash\bin\Release\netcoreapp1.1\Companydash.deps.json
+c:\users\user\documents\visual studio 2017\Projects\Companydash\Companydash\bin\Release\netcoreapp1.1\Companydash.runtimeconfig.json
+c:\users\user\documents\visual studio 2017\Projects\Companydash\Companydash\bin\Release\netcoreapp1.1\Companydash.runtimeconfig.dev.json
+c:\users\user\documents\visual studio 2017\Projects\Companydash\Companydash\bin\Release\netcoreapp1.1\Companydash.dll
+c:\users\user\documents\visual studio 2017\Projects\Companydash\Companydash\bin\Release\netcoreapp1.1\Companydash.pdb
+c:\users\user\documents\visual studio 2017\Projects\Companydash\Companydash\obj\Release\netcoreapp1.1\Companydash.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2017\Projects\Companydash\Companydash\obj\Release\netcoreapp1.1\Companydash.AssemblyInfo.cs
+c:\users\user\documents\visual studio 2017\Projects\Companydash\Companydash\obj\Release\netcoreapp1.1\Companydash.dll
+c:\users\user\documents\visual studio 2017\Projects\Companydash\Companydash\obj\Release\netcoreapp1.1\Companydash.pdb
