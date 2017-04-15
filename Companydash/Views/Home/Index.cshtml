@@ -1,17 +1,33 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model IEnumerable<Companydash.Models.Phone>
 @{
+    //ViewData["Title"] = "Список смартфонов";
     Layout = null;
 }
 <!doctype html/>
 <html>
     <head>
-        <title>Hello from MVC</title>
+        <title>Магазин смартфонов</title>
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width"/>
     </head>
     <body>
-        <h2>Привет из MVC</h2>
+        <h2>Смартфоны</h2>
+        <table>
+            <tr>
+                <td>Модель</td>
+                <td>Производитель</td>
+                <td>Цена</td>
+                <td></td>
+            </tr>
+            @foreach(var phone in Model)
+            {
+                <tr>
+                    <td>@phone.Name</td>
+                    <td>@phone.Company</td>
+                    <td>@phone.Price</td>
+                    <td><a href="~/Home/Buy/@phone.Id">Купить</a></td>
+                </tr>
+            }
+        </table>
     </body>
 </html>
