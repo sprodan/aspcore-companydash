@@ -10,9 +10,9 @@ c:\users\user\documents\visual studio 2017\Projects\Companydash\Companydash\obj\
 C:\Users\User\Source\Repos\aspcore-companydash\Companydash\bin\Debug\netcoreapp1.1\Companydash.deps.json
 C:\Users\User\Source\Repos\aspcore-companydash\Companydash\bin\Debug\netcoreapp1.1\Companydash.runtimeconfig.json
 C:\Users\User\Source\Repos\aspcore-companydash\Companydash\bin\Debug\netcoreapp1.1\Companydash.runtimeconfig.dev.json
-C:\Users\User\Source\Repos\aspcore-companydash\Companydash\bin\Debug\netcoreapp1.1\Companydash.dll
-C:\Users\User\Source\Repos\aspcore-companydash\Companydash\bin\Debug\netcoreapp1.1\Companydash.pdb
 C:\Users\User\Source\Repos\aspcore-companydash\Companydash\obj\Debug\netcoreapp1.1\Companydash.csprojResolveAssemblyReference.cache
 C:\Users\User\Source\Repos\aspcore-companydash\Companydash\obj\Debug\netcoreapp1.1\Companydash.AssemblyInfo.cs
+C:\Users\User\Source\Repos\aspcore-companydash\Companydash\bin\Debug\netcoreapp1.1\Companydash.dll
+C:\Users\User\Source\Repos\aspcore-companydash\Companydash\bin\Debug\netcoreapp1.1\Companydash.pdb
 C:\Users\User\Source\Repos\aspcore-companydash\Companydash\obj\Debug\netcoreapp1.1\Companydash.dll
 C:\Users\User\Source\Repos\aspcore-companydash\Companydash\obj\Debug\netcoreapp1.1\Companydash.pdb
