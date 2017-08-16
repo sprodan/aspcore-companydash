@@ -16,3 +16,11 @@ C:\Users\User\Source\Repos\aspcore-companydash\Companydash\bin\Debug\netcoreapp1
 C:\Users\User\Source\Repos\aspcore-companydash\Companydash\bin\Debug\netcoreapp1.1\Companydash.pdb
 C:\Users\User\Source\Repos\aspcore-companydash\Companydash\obj\Debug\netcoreapp1.1\Companydash.dll
 C:\Users\User\Source\Repos\aspcore-companydash\Companydash\obj\Debug\netcoreapp1.1\Companydash.pdb
+C:\Users\sprodan\Source\Repos\aspcore-companydash\Companydash\bin\Debug\netcoreapp1.1\Companydash.deps.json
+C:\Users\sprodan\Source\Repos\aspcore-companydash\Companydash\bin\Debug\netcoreapp1.1\Companydash.runtimeconfig.json
+C:\Users\sprodan\Source\Repos\aspcore-companydash\Companydash\bin\Debug\netcoreapp1.1\Companydash.runtimeconfig.dev.json
+C:\Users\sprodan\Source\Repos\aspcore-companydash\Companydash\bin\Debug\netcoreapp1.1\Companydash.dll
+C:\Users\sprodan\Source\Repos\aspcore-companydash\Companydash\bin\Debug\netcoreapp1.1\Companydash.pdb
+C:\Users\sprodan\Source\Repos\aspcore-companydash\Companydash\obj\Debug\netcoreapp1.1\Companydash.AssemblyInfo.cs
+C:\Users\sprodan\Source\Repos\aspcore-companydash\Companydash\obj\Debug\netcoreapp1.1\Companydash.dll
+C:\Users\sprodan\Source\Repos\aspcore-companydash\Companydash\obj\Debug\netcoreapp1.1\Companydash.pdb
