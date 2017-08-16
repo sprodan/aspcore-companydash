@@ -7,6 +7,7 @@ using Microsoft.EntityFrameworkCore; // пространство имен Entity
 using Companydash.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Companydash.Services;
+using Microsoft.AspNetCore.Identity;
 
 namespace Companydash
 {
