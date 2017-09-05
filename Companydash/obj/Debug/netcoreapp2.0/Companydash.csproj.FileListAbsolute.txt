@@ -1,0 +1,11 @@
+C:\Users\sprod\Source\Repos\aspcore-companydash\Companydash\obj\Debug\netcoreapp2.0\Companydash.csprojResolveAssemblyReference.cache
+C:\Users\sprod\Source\Repos\aspcore-companydash\Companydash\obj\Debug\netcoreapp2.0\Companydash.csproj.CoreCompileInputs.cache
+C:\Users\sprod\Source\Repos\aspcore-companydash\Companydash\obj\Debug\netcoreapp2.0\Companydash.AssemblyInfoInputs.cache
+C:\Users\sprod\Source\Repos\aspcore-companydash\Companydash\obj\Debug\netcoreapp2.0\Companydash.AssemblyInfo.cs
+C:\Users\sprod\Source\Repos\aspcore-companydash\Companydash\bin\Debug\netcoreapp2.0\Companydash.deps.json
+C:\Users\sprod\Source\Repos\aspcore-companydash\Companydash\bin\Debug\netcoreapp2.0\Companydash.runtimeconfig.json
+C:\Users\sprod\Source\Repos\aspcore-companydash\Companydash\bin\Debug\netcoreapp2.0\Companydash.runtimeconfig.dev.json
+C:\Users\sprod\Source\Repos\aspcore-companydash\Companydash\bin\Debug\netcoreapp2.0\Companydash.dll
+C:\Users\sprod\Source\Repos\aspcore-companydash\Companydash\bin\Debug\netcoreapp2.0\Companydash.pdb
+C:\Users\sprod\Source\Repos\aspcore-companydash\Companydash\obj\Debug\netcoreapp2.0\Companydash.dll
+C:\Users\sprod\Source\Repos\aspcore-companydash\Companydash\obj\Debug\netcoreapp2.0\Companydash.pdb

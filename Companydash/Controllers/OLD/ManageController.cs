@@ -1,14 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Companydash.Models;
+using Companydash.Models.ManageViewModels;
+using Companydash.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Companydash.Models;
-using Companydash.Models.ManageViewModels;
-using Companydash.Services;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace Companydash.Controllers
 {
@@ -276,24 +274,27 @@ namespace Companydash.Controllers
         [HttpGet]
         public async Task<IActionResult> ManageLogins(ManageMessageId? message = null)
         {
-            ViewData["StatusMessage"] =
-                message == ManageMessageId.RemoveLoginSuccess ? "The external login was removed."
-                : message == ManageMessageId.AddLoginSuccess ? "The external login was added."
-                : message == ManageMessageId.Error ? "An error has occurred."
-                : "";
-            var user = await GetCurrentUserAsync();
-            if (user == null)
-            {
-                return View("Error");
-            }
-            var userLogins = await _userManager.GetLoginsAsync(user);
-            var otherLogins = _signInManager.GetExternalAuthenticationSchemes().Where(auth => userLogins.All(ul => auth.AuthenticationScheme != ul.LoginProvider)).ToList();
-            ViewData["ShowRemoveButton"] = user.PasswordHash != null || userLogins.Count > 1;
-            return View(new ManageLoginsViewModel
-            {
-                CurrentLogins = userLogins,
-                OtherLogins = otherLogins
-            });
+            //ViewData["StatusMessage"] =
+            //    message == ManageMessageId.RemoveLoginSuccess ? "The external login was removed."
+            //    : message == ManageMessageId.AddLoginSuccess ? "The external login was added."
+            //    : message == ManageMessageId.Error ? "An error has occurred."
+            //    : "";
+            //var user = await GetCurrentUserAsync();
+            //if (user == null)
+            //{
+            //    return View("Error");
+            //}
+            //var userLogins = await _userManager.GetLoginsAsync(user);
+            //var logins = await _signInManager.GetExternalAuthenticationSchemesAsync();
+            //var otherLogins = logins.Where(auth => userLogins.All(ul => auth.ToString() != ul.LoginProvider)).ToList();
+            //ViewData["ShowRemoveButton"] = user.PasswordHash != null || userLogins.Count > 1;
+            //return View(new ManageLoginsViewModel
+            //{
+            //    CurrentLogins = userLogins,
+            //    OtherLogins = otherLogins
+            //});
+
+            return View();
         }
 
         //
