@@ -10,48 +10,48 @@
                         <span class="clear">
                             <span class="block m-t-xs">
                                 <strong class="font-bold">David Williams</strong>
-                            </span> <span class="text-muted text-xs block">Art Director <b class="caret"></b></span>
+                            </span> <span class="text-muted text-xs block">Art Director @*<b class="caret"></b>*@</span>
                         </span>
                     </a>
-                    <ul class="dropdown-menu animated fadeInRight m-t-xs">
+                    @*<ul class="dropdown-menu animated fadeInRight m-t-xs">
                         <li><a href="@Url.Action("Profile", "AppViews")">Profile</a></li>
                         <li><a href="@Url.Action("Contacts", "AppViews")">Contacts</a></li>
                         <li><a href="@Url.Action("Inbox", "Mailbox")">Mailbox</a></li>
                         <li class="divider"></li>
                         <li><a href="@Url.Action("Login", "Pages")">Logout</a></li>
-                    </ul>
+                    </ul>*@
                 </div>
                 <div class="logo-element">
                     IN+
                 </div>
             </li>
-            <li class="@Html.IsSelected(controller: "Pages")">
-                <a href="@Url.Action("EmptyPage", "Pages")"><i class="fa fa-pie-chart"></i> <span class="nav-label" data-i18n="nav.dashboard">Дашборд</span> </a>
+            <li class="@Html.IsSelected(controller: "Main")">
+                <a href="@Url.Action("Index", "Main")"><i class="fa fa-pie-chart"></i> <span class="nav-label" data-i18n="nav.dashboard">Главная</span> </a>
             </li>
-            <li class="@Html.IsSelected(controller: "Pages")">
+            <li class="@Html.IsSelected(controller: "HR")">
                 <a href="#"><i class="fa fa-files-o"></i> <span class="nav-label" data-i18n="nav.otherpages">HR</span><span class="fa arrow"></span></a>
-                <ul class="nav nav-second-level collapse @Html.IsSelected(controller: "Pages", cssClass: "in")">
-                    <li class="@Html.IsSelected(action: "EmptyPage")"><a href="@Url.Action("EmptyPage", "Pages")">Подбор</a></li>
-                    <li class="@Html.IsSelected(action: "EmptyPage")"><a href="@Url.Action("EmptyPage", "Pages")">Команды</a></li>
-                    <li class="@Html.IsSelected(action: "EmptyPage")"><a href="@Url.Action("EmptyPage", "Pages")">Кадры</a></li>
-                    <li class="@Html.IsSelected(action: "EmptyPage")"><a href="@Url.Action("EmptyPage", "Pages")">Проекты</a></li>
-                    <li class="@Html.IsSelected(action: "EmptyPage")"><a href="@Url.Action("EmptyPage", "Pages")">e-learning</a></li>
-                    <li class="@Html.IsSelected(action: "EmptyPage")"><a href="@Url.Action("EmptyPage", "Pages")">Орг-структура</a></li>
-                    <li class="@Html.IsSelected(action: "EmptyPage")"><a href="@Url.Action("EmptyPage", "Pages")">Грейдирование</a></li>
+                <ul class="nav nav-second-level collapse @Html.IsSelected(controller: "HR", cssClass: "in")">
+                    <li class="@Html.IsSelected(action: "Recruitment")"><a href="@Url.Action("Recruitment", "HR")">Подбор</a></li>
+                    <li class="@Html.IsSelected(action: "Teams")"><a href="@Url.Action("Teams", "HR")">Команды</a></li>
+                    <li class="@Html.IsSelected(action: "Staff")"><a href="@Url.Action("Staff", "HR")">Кадры</a></li>
+                    <li class="@Html.IsSelected(action: "Projects")"><a href="@Url.Action("Projects", "HR")">Проекты</a></li>
+                    <li class="@Html.IsSelected(action: "ELearning")"><a href="@Url.Action("ELearning", "HR")">e-learning</a></li>
+                    <li class="@Html.IsSelected(action: "Structure")"><a href="@Url.Action("Structure", "HR")">Орг-структура</a></li>
+                    <li class="@Html.IsSelected(action: "Grading")"><a href="@Url.Action("Grading", "HR")">Грейдирование</a></li>
                 </ul>
             </li>
-            <li class="@Html.IsSelected(controller: "Pages")">
+            <li class="@Html.IsSelected(controller: "ProjectManagement")">
                 <a href="#"><i class="fa fa-files-o"></i> <span class="nav-label" data-i18n="nav.otherpages">ProjectM</span><span class="fa arrow"></span></a>
-                <ul class="nav nav-second-level collapse @Html.IsSelected(controller: "Pages", cssClass: "in")">
-                    <li class="@Html.IsSelected(action: "EmptyPage")"><a href="@Url.Action("EmptyPage", "Pages")">Dashboard</a></li>
-                    <li class="@Html.IsSelected(action: "EmptyPage")"><a href="@Url.Action("EmptyPage", "Pages")">Проекты</a></li>
+                <ul class="nav nav-second-level collapse @Html.IsSelected(controller: "ProjectManagement", cssClass: "in")">
+                    <li class="@Html.IsSelected(action: "Dashboard")"><a href="@Url.Action("Dashboard", "ProjectManagement")">Dashboard</a></li>
+                    <li class="@Html.IsSelected(action: "Projects")"><a href="@Url.Action("Projects", "ProjectManagement")">Проекты</a></li>
                 </ul>
             </li>
-            <li class="@Html.IsSelected(controller: "Pages")">
+            <li class="@Html.IsSelected(controller: "ProductManagement")">
                 <a href="#"><i class="fa fa-files-o"></i> <span class="nav-label" data-i18n="nav.otherpages">ProductM</span><span class="fa arrow"></span></a>
-                <ul class="nav nav-second-level collapse @Html.IsSelected(controller: "Pages", cssClass: "in")">
-                    <li class="@Html.IsSelected(action: "EmptyPage")"><a href="@Url.Action("EmptyPage", "Pages")">CI</a></li>
-                    <li class="@Html.IsSelected(action: "EmptyPage")"><a href="@Url.Action("EmptyPage", "Pages")">Releases</a></li>
+                <ul class="nav nav-second-level collapse @Html.IsSelected(controller: "ProductManagement", cssClass: "in")">
+                    <li class="@Html.IsSelected(action: "CI")"><a href="@Url.Action("CI", "ProductManagement")">CI</a></li>
+                    <li class="@Html.IsSelected(action: "Releases")"><a href="@Url.Action("Releases", "ProductManagement")">Releases</a></li>
                 </ul>
             </li>
             @*<li class="@Html.IsSelected(controller: "Dashboards")">

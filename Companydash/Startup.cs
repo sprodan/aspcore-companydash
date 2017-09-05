@@ -81,7 +81,7 @@ namespace Companydash
             {
                 routes.MapRoute(
                         name: "default",
-                        template: "{controller=Dashboards}/{action=Dashboard_1}/{id?}");
+                        template: "{controller=Main}/{action=Index}/{id?}");
             });
         }
     }

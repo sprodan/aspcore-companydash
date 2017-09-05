@@ -24,3 +24,6 @@ C:\Users\sprodan\Source\Repos\aspcore-companydash\Companydash\bin\Debug\netcorea
 C:\Users\sprodan\Source\Repos\aspcore-companydash\Companydash\obj\Debug\netcoreapp1.1\Companydash.AssemblyInfo.cs
 C:\Users\sprodan\Source\Repos\aspcore-companydash\Companydash\obj\Debug\netcoreapp1.1\Companydash.dll
 C:\Users\sprodan\Source\Repos\aspcore-companydash\Companydash\obj\Debug\netcoreapp1.1\Companydash.pdb
+C:\Users\sprodan\Source\Repos\aspcore-companydash\Companydash\obj\Debug\netcoreapp1.1\Companydash.csprojResolveAssemblyReference.cache
+C:\Users\sprodan\Source\Repos\aspcore-companydash\Companydash\obj\Debug\netcoreapp1.1\Companydash.csproj.CoreCompileInputs.cache
+C:\Users\sprodan\Source\Repos\aspcore-companydash\Companydash\obj\Debug\netcoreapp1.1\Companydash.AssemblyInfoInputs.cache
